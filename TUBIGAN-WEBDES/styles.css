@@ -1,0 +1,122 @@
+body {
+    background: url("bg.jpg") no-repeat center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background: linear-gradient(90deg, #5a28318e 50%, rgba(249, 154, 170, 0) 100%);
+    color: #ffffff;
+    padding: 10px;
+    text-align: left;
+    font-family: georgia;
+}
+
+.logo {
+    max-width: 110px;
+    height: auto;
+    margin-right: 10px;
+    box-shadow: none;
+    float: left;
+}
+
+nav {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: #555;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+
+nav b {
+    color: white;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 10px;
+    font-size: 18px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.image-container img {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+}
+
+.slideshow-container {
+    right: px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-bottom: auto;
+    bottom: 0;
+    width: 100%
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.service-item {
+    padding: 20px;
+    background-color: #44121ab6;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.service-item:hover {
+    transform: scale(1.2);
+}
+
+
+section {
+    padding: 30px;
+}
+
